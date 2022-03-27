@@ -13,4 +13,4 @@ def bubble_sort(array):
 
 
 def solution(nums):
-    return [] if nums is None else bubble_sort(nums)
+    return [] if not nums else bubble_sort(nums)
