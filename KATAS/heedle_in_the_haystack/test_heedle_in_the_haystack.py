@@ -1,7 +1,7 @@
 import unittest
 from heedle_in_the_haystack import find_needle
 
-class TestFindShort(unittest.TestCase):
+class TestCodewarsCases(unittest.TestCase):
     def test_case(self):
     	self.assertEqual(find_needle(['hay', 'junk', 'hay', 'hay',
     								'moreJunk', 'needle', 

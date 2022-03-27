@@ -1,7 +1,7 @@
 import unittest
 from number_of_people_in_the_bus import number
 
-class TestFindShort(unittest.TestCase):
+class TestCodewarsCases(unittest.TestCase):
     def test_case(self):
     	self.assertEqual(number([[10,0],[3,5],[5,8]]),5)
     	self.assertEqual(number([[3,0],[9,1],[4,10],[12,2],[6,1],[7,10]]),17)

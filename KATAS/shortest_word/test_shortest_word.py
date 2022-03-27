@@ -1,7 +1,7 @@
 import unittest
 from shortest_word import find_short
 
-class TestFindShort(unittest.TestCase):
+class TestCodewarsCases(unittest.TestCase):
     def test_case(self):
     	self.assertEqual(find_short('abcd ab dc'), 2)
     	self.assertEqual(find_short('abcd abs dcs'), 3)

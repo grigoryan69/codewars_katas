@@ -1,7 +1,7 @@
 import unittest
 from sum_mixed_array import sum_mix
 
-class TestFindShort(unittest.TestCase):
+class TestCodewarsCases(unittest.TestCase):
     def test_case(self):
     	self.assertEqual(sum_mix([100, 50, 2]), 152)
     	self.assertEqual(sum_mix([50, "19", 1]), 70)

@@ -1,7 +1,7 @@
 import unittest
 from disemvowel_trolls import disemvowel
 
-class TestFindShort(unittest.TestCase):
+class TestCodewarsCases(unittest.TestCase):
     def test_case(self):
     	self.assertEqual(disemvowel('david'), 'dvd')
     	self.assertEqual(disemvowel('LOL'), 'LL')

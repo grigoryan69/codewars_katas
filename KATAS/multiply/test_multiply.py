@@ -1,7 +1,7 @@
 import unittest
 from multiply import multiply
 
-class TestFindShort(unittest.TestCase):
+class TestCodewarsCases(unittest.TestCase):
     def test_case(self):
     	self.assertEqual(multiply(160, 5), 800)
     	

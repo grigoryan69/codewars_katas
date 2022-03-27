@@ -1,7 +1,7 @@
 import unittest
 from remove_first_and_last_character import remove_char
 
-class TestFindShort(unittest.TestCase):
+class TestCodewarsCases(unittest.TestCase):
     def test_case(self):
     	self.assertEqual(remove_char('david'), 'avi')
     	self.assertEqual(remove_char('grigoryan'), 'rigorya')

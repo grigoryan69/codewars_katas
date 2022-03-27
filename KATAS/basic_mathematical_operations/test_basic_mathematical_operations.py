@@ -1,7 +1,7 @@
 import unittest
 from basic_mathematical_operations import basic_op
 
-class TestFindShort(unittest.TestCase):
+class TestCodewarsCases(unittest.TestCase):
     def test_case(self):
     	self.assertEqual(basic_op('+', 5, 5), 10)
     	self.assertEqual(basic_op('-', 1616, 165), 1451)
